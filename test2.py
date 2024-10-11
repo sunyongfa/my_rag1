@@ -8,7 +8,7 @@ from langchain_community.vectorstores import Chroma,FAISS
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-os.environ["DASHSCOPE_API_KEY"]="sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+os.environ["DASHSCOPE_API_KEY"]="***"
 llm = Tongyi( model="qwen-max",temperature=0.1)
 BGE_MODEL_PATH = "D:/pyspace/BAAI/bge-large-zh-v1.5"
 root_dir = "./dosc"
