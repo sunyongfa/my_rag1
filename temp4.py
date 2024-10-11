@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.llms import Tongyi
 
-os.environ["DASHSCOPE_API_KEY"]="sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+os.environ["DASHSCOPE_API_KEY"]="***"
 llm = Tongyi( model="qwen-turbo",temperature=0.1)
 
 
