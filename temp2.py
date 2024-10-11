@@ -13,7 +13,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 
 os.environ["OPENAI_API_KEY"] = "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"
-os.environ["DASHSCOPE_API_KEY"]="sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+os.environ["DASHSCOPE_API_KEY"]="***"
 llm = Tongyi(streaming=True,model="qwen-turbo",temperature=0.1)
 llm2 = ChatOpenAI(streaming=True, callbacks=[StreamingStdOutCallbackHandler()], temperature=0)
 
