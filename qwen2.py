@@ -5,7 +5,7 @@ from langchain_community.embeddings import DashScopeEmbeddings
 #from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 
 messages = []
-DASHSCOPE_API_KEY = "sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+DASHSCOPE_API_KEY = "***"
 embeddings = DashScopeEmbeddings(
         model="text-embedding-v1", dashscope_api_key=DASHSCOPE_API_KEY
     )
