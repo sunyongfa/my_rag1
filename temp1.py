@@ -7,7 +7,7 @@ import time,os
 from dashscope.api_entities.dashscope_response import Role
 from dashscope import Generation
 
-DASHSCOPE_API_KEY = "sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+DASHSCOPE_API_KEY = "***"
 
 root_dir = "./dosc"
 
