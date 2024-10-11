@@ -16,7 +16,7 @@ from langchain.retrievers import ContextualCompressionRetriever
 from langchain_community.document_transformers import EmbeddingsRedundantFilter
 
 
-os.environ["DASHSCOPE_API_KEY"]="sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+os.environ["DASHSCOPE_API_KEY"]="***"
 llm = Tongyi( model="qwen-turbo",temperature=0.1)
 BGE_MODEL_PATH = "D:/pyspace/BAAI/bge-large-zh-v1.5"
 root_dir = "./dosc"
