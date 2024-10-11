@@ -4,7 +4,7 @@ import base64
 
 endpoint = "https://ukl-openai.openai.azure.com/"
 deployment = "ukl-chatgpt4o"
-GPT4o_KEY="2ef39609cfae494b940a5023ea8241e4"
+GPT4o_KEY="***"
 api_version = '2024-02-15-preview'
 GPT_name = "GPT4o"
 GPT4o_ENDPOINT =  endpoint + "openai/deployments/" +deployment+"/chat/completions?api-version="+api_version
