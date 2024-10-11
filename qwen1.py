@@ -5,7 +5,7 @@ from langchain_community.document_loaders import TextLoader,Docx2txtLoader,PyPDF
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import time,os
 
-DASHSCOPE_API_KEY = "sk-c4f6b84c10054d14a91dc57bb6e8afb5"
+DASHSCOPE_API_KEY = "***"
 
 root_dir = "./dosc"
 
